@@ -1,0 +1,136 @@
+{
+  "generalSituation": "A trough of low pressure will continue to bring heavy showers and squally thunderstorms to the coast of Guangdong tomorrow. With the trough of low pressure moving northwards gradually towards inland areas during the weekend, showers will ease off over the coastal areas early next week. Meanwhile, under the influence of the southwesterly airstream, the weather will be hot over the region. The trough of low pressure is expected to edge closer to the coast of southern China again midweek next week, and bring unsettled weather to the region.",
+  "weatherForecast": [
+    {
+      "forecastDate": "20220611",
+      "week": "Saturday",
+      "forecastWind": "South to southwest force 4, occasionally force 5.",
+      "forecastWeather": "Cloudy with showers and squally thunderstorms. Showers will be heavy at times at first, and ease off later.",
+      "forecastMaxtemp": { "value": 29, "unit": "C" },
+      "forecastMintemp": { "value": 25, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 80, "unit": "percent" },
+      "ForecastIcon": 63,
+      "PSR": "High"
+    },
+    {
+      "forecastDate": "20220612",
+      "week": "Sunday",
+      "forecastWind": "South to southwest force 4.",
+      "forecastWeather": "Hot with sunny periods and a few showers.",
+      "forecastMaxtemp": { "value": 32, "unit": "C" },
+      "forecastMintemp": { "value": 27, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 70, "unit": "percent" },
+      "ForecastIcon": 53,
+      "PSR": "Medium Low"
+    },
+    {
+      "forecastDate": "20220613",
+      "week": "Monday",
+      "forecastWind": "Southwest force 4, occasionally force 5.",
+      "forecastWeather": "Hot with sunny periods and a few showers.",
+      "forecastMaxtemp": { "value": 32, "unit": "C" },
+      "forecastMintemp": { "value": 28, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 70, "unit": "percent" },
+      "ForecastIcon": 53,
+      "PSR": "Low"
+    },
+    {
+      "forecastDate": "20220614",
+      "week": "Tuesday",
+      "forecastWind": "Southwest force 4, occasionally force 5.",
+      "forecastWeather": "Cloudy with a few showers and thunderstorms. Showers will be more frequent later.",
+      "forecastMaxtemp": { "value": 31, "unit": "C" },
+      "forecastMintemp": { "value": 26, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 75, "unit": "percent" },
+      "ForecastIcon": 63,
+      "PSR": "Medium High"
+    },
+    {
+      "forecastDate": "20220615",
+      "week": "Wednesday",
+      "forecastWind": "Southwest force 4.",
+      "forecastWeather": "Cloudy with showers and squally thunderstorms. Showers will be heavy at times.",
+      "forecastMaxtemp": { "value": 29, "unit": "C" },
+      "forecastMintemp": { "value": 26, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 80, "unit": "percent" },
+      "ForecastIcon": 64,
+      "PSR": "High"
+    },
+    {
+      "forecastDate": "20220616",
+      "week": "Thursday",
+      "forecastWind": "Southwest force 4.",
+      "forecastWeather": "Cloudy with showers and thunderstorms.",
+      "forecastMaxtemp": { "value": 29, "unit": "C" },
+      "forecastMintemp": { "value": 26, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 80, "unit": "percent" },
+      "ForecastIcon": 63,
+      "PSR": "Medium High"
+    },
+    {
+      "forecastDate": "20220617",
+      "week": "Friday",
+      "forecastWind": "South to southwest force 4.",
+      "forecastWeather": "Mainly cloudy with a few showers.",
+      "forecastMaxtemp": { "value": 30, "unit": "C" },
+      "forecastMintemp": { "value": 27, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 75, "unit": "percent" },
+      "ForecastIcon": 62,
+      "PSR": "Medium Low"
+    },
+    {
+      "forecastDate": "20220618",
+      "week": "Saturday",
+      "forecastWind": "South to southwest force 4.",
+      "forecastWeather": "Sunny intervals and a few showers.",
+      "forecastMaxtemp": { "value": 31, "unit": "C" },
+      "forecastMintemp": { "value": 27, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 70, "unit": "percent" },
+      "ForecastIcon": 54,
+      "PSR": "Low"
+    },
+    {
+      "forecastDate": "20220619",
+      "week": "Sunday",
+      "forecastWind": "South force 4.",
+      "forecastWeather": "Sunny periods and one or two showers.",
+      "forecastMaxtemp": { "value": 32, "unit": "C" },
+      "forecastMintemp": { "value": 27, "unit": "C" },
+      "forecastMaxrh": { "value": 95, "unit": "percent" },
+      "forecastMinrh": { "value": 70, "unit": "percent" },
+      "ForecastIcon": 51,
+      "PSR": "Low"
+    }
+  ],
+  "updateTime": "2022-06-10T16:30:00+08:00",
+  "seaTemp": {
+    "place": "North Point",
+    "value": 27,
+    "unit": "C",
+    "recordTime": "2022-06-10T14:00:00+08:00"
+  },
+  "soilTemp": [
+    {
+      "place": "Hong Kong Observatory",
+      "value": 27.8,
+      "unit": "C",
+      "recordTime": "2022-06-10T07:00:00+08:00",
+      "depth": { "unit": "metre", "value": 0.5 }
+    },
+    {
+      "place": "Hong Kong Observatory",
+      "value": 28,
+      "unit": "C",
+      "recordTime": "2022-06-10T07:00:00+08:00",
+      "depth": { "unit": "metre", "value": 1 }
+    }
+  ]
+}
