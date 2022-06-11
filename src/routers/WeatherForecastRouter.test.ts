@@ -1,7 +1,6 @@
 import { WeatherForecastRouter } from './WeatherForecastRouter';
 import { WeatherForecastService } from '../services/WeatherForecastService';
 import { mockData } from './mockData';
-jest.mock('express');
 
 type Mockify<T> = {
   [P in keyof T]: jest.Mock<any>;
@@ -35,6 +34,19 @@ describe('WeatherForecastRouter', () => {
       // do nothing.
     };
     resJson = jest.spyOn(res, 'json');
+  });
+
+  it('should has one endpoint: /9daysweather in router', () => {
+    const expressRouter = router.router();
+    expect(expressRouter.stack.length).toBe(1);
+    expect(
+      expressRouter.stack.some(
+        s => Object.keys(s.route.methods).indexOf('get') > -1
+      )
+    ).toBe(true);
+    expect(
+      expressRouter.stack.some(s => s.route.path === '/9daysweather')
+    ).toBe(true);
   });
 
   it('should handle getNineDaysWeatherForecast method correctly', async () => {
