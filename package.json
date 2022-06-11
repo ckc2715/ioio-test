@@ -9,8 +9,8 @@
     "dev": "nodemon src/index.ts",
     "test": "jest --coverage",
     "testF": "jest",
-    "lint": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix"
+    "lint": "eslint './src/**/*.ts'",
+    "lint:fix": "eslint './src/**/*.ts' --fix"
   },
   "pre-commit": [
     "test",
